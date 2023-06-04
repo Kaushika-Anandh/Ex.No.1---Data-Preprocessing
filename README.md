@@ -76,8 +76,8 @@ df['Exited'].describe()
 ```python
 #normalising data to normal distribution
 sc=MinMaxScaler()
-df2=pd.DataFrame(sc.fit_transform(df),columns=['CreditScore','Tenure','Balance','NumOfProducts',
-                                      'HasCrCard','IsActiveMember','EstimatedSalary','Exited'])
+df2=pd.DataFrame(sc.fit_transform(df),columns=['CreditScore','Tenure','Balance',
+'NumOfProducts','HasCrCard','IsActiveMember','EstimatedSalary','Exited'])
 df2
 ```
 
